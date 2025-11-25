@@ -19,8 +19,9 @@ My focus is creating reliable, self-hosted, and developer-friendly products.
 - Building tools that reduce manual work (QA mindset)
 
 **Now learning:** advanced server-side patterns & container-first workflows  
-**Looking for:** collaborations in automation, IoT, or full-stack platforms  
-- 🌐 Portfolio / CV: **https://cv.thisroman.dev**
+**Looking for:** collaborations in automation, IoT, or full-stack platforms
+
+[![CV](https://img.shields.io/badge/CV-thisroman.dev-0A66C2?style=for-the-badge&logo=google-docs&logoColor=white)](https://cv.thisroman.dev)
 
 ---
 
