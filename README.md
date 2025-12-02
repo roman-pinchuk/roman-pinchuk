@@ -25,15 +25,6 @@ My focus is creating reliable, self-hosted, and developer-friendly products.
 
 ---
 
-### 📊 GitHub Analytics
-
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=roman-pinchuk&show_icons=true&theme=github_dark&hide_border=true" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=roman-pinchuk&layout=compact&theme=github_dark&hide_border=true" />
-</p>
-
----
-
 ### 📈 Activity Graph
 
 <p align="center">
