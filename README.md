@@ -9,7 +9,7 @@
 
 ### 🚀 About Me
 
-I’m Roman — a full-stack engineer blending **software, hardware, and automation** into real-world systems.  
+I’m Roman - a full-stack engineer blending **software, hardware, and automation** into real-world systems.  
 My focus is creating reliable, self-hosted, and developer-friendly products.
 
 **What drives me**
