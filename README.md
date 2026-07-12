@@ -1,8 +1,8 @@
 <div align="center">
   <a href="https://github.com/roman-pinchuk/roman-pinchuk">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-      <img alt="Roman Pinchuk's GitHub Profile README" src="light_mode.svg" width="920">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/dark_mode.svg?v=20260712">
+      <img alt="Roman Pinchuk's GitHub Profile README" src="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/light_mode.svg?v=20260712" width="920">
     </picture>
   </a>
 
