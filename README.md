@@ -9,9 +9,9 @@
 ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝ ╚═╝  ╚═╝╚═╝  ╚═══╝
 ```
 
-$${\color{cyan}\text{> Full-Stack Developer \textbar \hspace{2pt} QA Automation \textbar \hspace{2pt} IoT Maker}}$$
+${\color{cyan}\text{> Full-Stack Developer \hspace{4pt}|\hspace{4pt} QA Automation \hspace{4pt}|\hspace{4pt} IoT Maker}}$
 
-$${\color{gray}\text{\$ Passionate about MERN, ESP32, Home Assistant, and automation}}$$
+${\color{gray}\texttt{\$\ Passionate about MERN, ESP32, Home Assistant, and automation}}$
 
 </div>
 
