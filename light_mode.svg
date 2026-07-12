@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="920" height="520" font-size="14px">
+  <style>
+    .key    { fill: #9a6700; }
+    .val    { fill: #0969da; }
+    .dim    { fill: #afb8c1; }
+    .green  { fill: #1a7f37; }
+    .cyan   { fill: #1b7c83; }
+    .text   { fill: #24292f; }
+    .title  { fill: #1f2328; font-weight: bold; }
+    .cmt    { fill: #656d76; }
+    .red    { fill: #cf222e; }
+    .purp   { fill: #8250df; }
+    .bracket { fill: #57606a; }
+  </style>
+
+  <rect width="920" height="520" fill="#ffffff" stroke="#d0d7de" stroke-width="1" rx="12"/>
+
+  <!-- Left panel ─ terminal graphic -->
+  <rect x="20" y="20" width="340" height="480" fill="none" stroke="#d0d7de" stroke-width="1" rx="6"/>
+  <!-- Top bar -->
+  <rect x="20" y="20" width="340" height="26" fill="#f6f8fa" rx="6"/>
+  <rect x="20" y="32" width="340" height="14" fill="#f6f8fa"/>
+  <!-- Traffic lights -->
+  <circle cx="32" cy="33" r="5" fill="#cf222e"/>
+  <circle cx="48" cy="33" r="5" fill="#9a6700"/>
+  <circle cx="64" cy="33" r="5" fill="#1a7f37"/>
+
+  <!-- ASCII art inside left panel -->
+  <text x="35" y="75" fill="#1a7f37" font-size="13px">
+    <tspan x="35" dy=" 0">     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄</tspan>
+    <tspan x="35" dy="18">     █░░░░░░░░░░░░░░█</tspan>
+    <tspan x="35" dy="18">     █░▄▄▄░▄▄▄░▄▄▄░█</tspan>
+    <tspan x="35" dy="18">     █░█▀█░█▀█░█▀█░█</tspan>
+    <tspan x="35" dy="18">     █░▀▀▀░▀▀▀░▀▀▀░█</tspan>
+    <tspan x="35" dy="18">     █░▄▀▀░▀▀▄░▀▀▄░█</tspan>
+    <tspan x="35" dy="18">     █░████░▄▄█░▀▀▀░█</tspan>
+    <tspan x="35" dy="18">     █░░░░░░░░░░░░░░█</tspan>
+    <tspan x="35" dy="18">     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</tspan>
+  </text>
+
+  <text x="35" y="260" fill="#1b7c83" font-size="13px">
+    <tspan x="35" dy=" 0">  ┌─ System ───────────┐</tspan>
+    <tspan x="35" dy="18">  │ROMAN@DEVELOPER     │</tspan>
+    <tspan x="35" dy="18">  │────────────────────│</tspan>
+    <tspan x="35" dy="18">  │$ ./build.sh        │</tspan>
+    <tspan x="35" dy="18">  │████████████████████│</tspan>
+    <tspan x="35" dy="18">  │BUILD: STABLE       │</tspan>
+    <tspan x="35" dy="18">  │UPTIME: 7+ YEARS    │</tspan>
+    <tspan x="35" dy="18">  │SIGNAL: ▂▄▆█ ▆▄▂▁ │</tspan>
+    <tspan x="35" dy="18">  └────────────────────┘</tspan>
+  </text>
+
+  <text x="35" y="460" fill="#656d76" font-size="12px">
+    <tspan x="35" dy="0">v2.0.0 // est. 2026</tspan>
+  </text>
+
+  <!-- Separator line -->
+  <line x1="375" y1="30" x2="375" y2="490" stroke="#d0d7de" stroke-width="1"/>
+
+  <!-- Right panel ─ terminal output -->
+  <text x="390" y="55" fill="#24292f" font-size="15px">
+    <tspan x="390" dy=" 0" font-weight="bold" fill="#1f2328">roman@github</tspan><tspan class="dim">:~$ </tspan><tspan class="green">cat /etc/profile</tspan>
+  </text>
+
+  <text x="390" y="75" fill="#afb8c1">──────────────────────────────────────────────────────────</text>
+
+  <text x="390" y="100" class="text">
+    <tspan x="390" dy=" 0" class="green">></tspan> Full-Stack Developer | QA Automation | IoT Maker
+  </text>
+
+  <text x="390" y="125" class="text">
+    <tspan x="390" dy=" 0" class="dim">></tspan> Building reliable, self-hosted, developer-friendly products.
+  </text>
+
+  <text x="390" y="155" class="title">$ cat /etc/about</text>
+  <text x="390" y="175" fill="#afb8c1">──────────────────────────────────</text>
+
+  <text x="390" y="200" class="text">
+    <tspan class="key">  Full-Stack</tspan><tspan class="dim">......</tspan><tspan class="val">MERN + TypeScript + Node.js</tspan>
+  </text>
+  <text x="390" y="220" class="text">
+    <tspan class="key">  Embedded/IoT</tspan><tspan class="dim">.....</tspan><tspan class="val">ESP32, Wi-Fi/BLE, Home Assistant</tspan>
+  </text>
+  <text x="390" y="240" class="text">
+    <tspan class="key">  Automation</tspan><tspan class="dim">.......</tspan><tspan class="val">QA mindset, self-hosting, CI/CD</tspan>
+  </text>
+  <text x="390" y="260" class="text">
+    <tspan class="key">  Currently</tspan><tspan class="dim">........</tspan><tspan class="val">Advanced server patterns &amp; containers</tspan>
+  </text>
+  <text x="390" y="280" class="text">
+    <tspan class="key">  Seeking</tspan><tspan class="dim">..........</tspan><tspan class="val">IoT, automation, full-stack collabs</tspan>
+  </text>
+
+  <text x="390" y="315" class="title">$ ls /usr/local/stack</text>
+  <text x="390" y="335" fill="#afb8c1">──────────────────────────────────</text>
+
+  <text x="390" y="360" class="text">
+    <tspan class="key">  Languages</tspan><tspan class="dim">.......</tspan><tspan class="val">TypeScript, JavaScript, Python</tspan>
+  </text>
+  <text x="390" y="380" class="text">
+    <tspan class="key">  Frontend</tspan><tspan class="dim">.........</tspan><tspan class="val">React, Next.js, Tailwind</tspan>
+  </text>
+  <text x="390" y="400" class="text">
+    <tspan class="key">  Backend</tspan><tspan class="dim">..........</tspan><tspan class="val">Node.js, Express, REST APIs</tspan>
+  </text>
+  <text x="390" y="420" class="text">
+    <tspan class="key">  Database</tspan><tspan class="dim">.........</tspan><tspan class="val">MongoDB, PostgreSQL, Redis</tspan>
+  </text>
+  <text x="390" y="440" class="text">
+    <tspan class="key">  DevOps</tspan><tspan class="dim">...........</tspan><tspan class="val">Docker, Linux, Nginx, Cloudflare</tspan>
+  </text>
+  <text x="390" y="460" class="text">
+    <tspan class="key">  Hardware</tspan><tspan class="dim">.........</tspan><tspan class="val">ESP32, Raspberry Pi, BLE</tspan>
+  </text>
+
+  <!-- Bottom bar with connect info -->
+  <rect x="390" y="478" width="510" height="1" fill="#d0d7de"/>
+
+  <text x="390" y="500" font-size="12px">
+    <tspan class="cmt">$ nc </tspan><tspan class="val">contact@thisroman.dev</tspan>
+    <tspan class="dim">  │  </tspan>
+    <tspan class="cmt">$ curl -s </tspan><tspan class="val">linkedin.com/in/roman-pinchuk</tspan>
+    <tspan class="dim">  │  </tspan>
+    <tspan class="cmt">$ open </tspan><tspan class="val">thisroman.dev</tspan>
+  </text>
+</svg>
