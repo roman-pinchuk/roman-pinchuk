@@ -11,70 +11,67 @@
     .cmt    { fill: #6e7681; }
     .red    { fill: #f85149; }
     .purp   { fill: #bc8cff; }
-    .bracket { fill: #8b949e; }
   </style>
 
   <rect width="920" height="520" fill="#0d1117" rx="12"/>
 
-  <!-- Left panel ─ terminal graphic -->
+  <!-- Left panel -->
   <rect x="20" y="20" width="340" height="480" fill="none" stroke="#30363d" stroke-width="1" rx="6"/>
-  <!-- Top bar -->
   <rect x="20" y="20" width="340" height="26" fill="#161b22" rx="6"/>
   <rect x="20" y="32" width="340" height="14" fill="#161b22"/>
-  <!-- Traffic lights -->
   <circle cx="32" cy="33" r="5" fill="#f85149"/>
   <circle cx="48" cy="33" r="5" fill="#d29922"/>
   <circle cx="64" cy="33" r="5" fill="#3fb950"/>
 
-  <!-- ASCII art inside left panel -->
-  <text x="35" y="75" fill="#3fb950" font-size="13px">
-    <tspan x="35" dy=" 0">     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄</tspan>
-    <tspan x="35" dy="18">     █░░░░░░░░░░░░░░█</tspan>
-    <tspan x="35" dy="18">     █░▄▄▄░▄▄▄░▄▄▄░█</tspan>
-    <tspan x="35" dy="18">     █░█▀█░█▀█░█▀█░█</tspan>
-    <tspan x="35" dy="18">     █░▀▀▀░▀▀▀░▀▀▀░█</tspan>
-    <tspan x="35" dy="18">     █░▄▀▀░▀▀▄░▀▀▄░█</tspan>
-    <tspan x="35" dy="18">     █░████░▄▄█░▀▀▀░█</tspan>
-    <tspan x="35" dy="18">     █░░░░░░░░░░░░░░█</tspan>
-    <tspan x="35" dy="18">     ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀</tspan>
+  <!-- Avatar ASCII art -->
+  <text x="40" y="62" fill="#39d2c0" font-size="12px">
+    <tspan x="40" dy="0">████████████████████████████████████</tspan>
+    <tspan x="40" dy="17">███████████████▓▓▓▓▓████████████████</tspan>
+    <tspan x="40" dy="17">███████████▓▓▓▓▓▓▓▓█▓▓██████████████</tspan>
+    <tspan x="40" dy="17">██████████▓▓▓▓▓▓▓▓▓▓████████████████</tspan>
+    <tspan x="40" dy="17">██████████▓▓▓▓▓▓▓▓▓▓▓▓██████████████</tspan>
+    <tspan x="40" dy="17">█████████▓▓▒░░░░░░░▒▒▒▓▓████████████</tspan>
+    <tspan x="40" dy="17">████████▓█▓░░░░░░░░▒▒▒▒▒▓█▓▓████████</tspan>
+    <tspan x="40" dy="17">████████▓▓▒░░░░░░░▒▒▓▓▓▓▒▓▓▓▓███████</tspan>
+    <tspan x="40" dy="17">████████▓▓░░▒▒▓▒░░▓▓▓▓▓▓▒▒▓▓▓███████</tspan>
+    <tspan x="40" dy="17">████████▓▒░░░░░░░░▓▒▒▒▒▒▒▒▓▓▓███████</tspan>
+    <tspan x="40" dy="17">████████▓▒▒░░░░░░░▒▓▒▒▒▒▒▓▓▓████████</tspan>
+    <tspan x="40" dy="17">█████████▓▓░░▒▒▒▓▓██▓▓▓▓▓▓██████████</tspan>
+    <tspan x="40" dy="17">███████████▒░▒▓▒▒▒▓▓▓▓▓▓▓▓██████████</tspan>
+    <tspan x="40" dy="17">██████████▓▓▓▓▒░▒▓▓▓▓▓▓▓▓▓██████████</tspan>
+    <tspan x="40" dy="17">███▓▓▓▒▒▒▒▒▒▒▓▓▓▒▓▓▓▓██▓▓▒▓▓▓▓██████</tspan>
+    <tspan x="40" dy="17">▓▒▒▒▒▒▒▒▒▒▒▒▒░▒▓▓▓████▓▓▓▓██▓▓▓▓▓███</tspan>
+    <tspan x="40" dy="17">▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓</tspan>
+    <tspan x="40" dy="17">▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒░░▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒</tspan>
   </text>
 
-  <text x="35" y="260" fill="#39d2c0" font-size="13px">
-    <tspan x="35" dy=" 0">  ┌─ System ───────────┐</tspan>
-    <tspan x="35" dy="18">  │ROMAN@DEVELOPER     │</tspan>
-    <tspan x="35" dy="18">  │────────────────────│</tspan>
-    <tspan x="35" dy="18">  │$ ./build.sh        │</tspan>
-    <tspan x="35" dy="18">  │████████████████████│</tspan>
-    <tspan x="35" dy="18">  │BUILD: STABLE       │</tspan>
-    <tspan x="35" dy="18">  │UPTIME: 7+ YEARS    │</tspan>
-    <tspan x="35" dy="18">  │SIGNAL: ▂▄▆█ ▆▄▂▁ │</tspan>
-    <tspan x="35" dy="18">  └────────────────────┘</tspan>
+  <!-- Status -->
+  <text x="35" y="432" font-size="12px">
+    <tspan x="35" dy="0" class="green">roman@developer</tspan>
+    <tspan x="35" dy="17" class="dim">BUILD: </tspan><tspan class="green">STABLE</tspan>
+    <tspan x="35" dy="17" class="dim">UPTIME: 7+ YEARS</tspan>
   </text>
 
-  <text x="35" y="460" fill="#6e7681" font-size="12px">
-    <tspan x="35" dy="0">v2.0.0 // est. 2026</tspan>
-  </text>
+  <text x="35" y="490" class="dim" font-size="11px">v2.0.0 · est. 2026</text>
 
-  <!-- Separator line -->
+  <!-- Separator -->
   <line x1="375" y1="30" x2="375" y2="490" stroke="#21262d" stroke-width="1"/>
 
-  <!-- Right panel ─ terminal output -->
-  <text x="390" y="55" fill="#c9d1d9" font-size="15px">
-    <tspan x="390" dy=" 0" font-weight="bold" fill="#e6edf3">roman@github</tspan><tspan class="dim">:~$ </tspan><tspan class="green">cat /etc/profile</tspan>
+  <!-- Right panel -->
+  <text x="390" y="55" class="text" font-size="15px">
+    <tspan x="390" dy=" 0" font-weight="bold" class="title">roman@github</tspan><tspan class="dim">:~$ </tspan><tspan class="green">cat /etc/profile</tspan>
   </text>
-
-  <text x="390" y="75" fill="#484f58">──────────────────────────────────────────────────────────</text>
+  <text x="390" y="75" class="dim">──────────────────────────────────────────────────────────</text>
 
   <text x="390" y="100" class="text">
     <tspan x="390" dy=" 0" class="green">></tspan> Full-Stack Developer | QA Automation | IoT Maker
   </text>
-
   <text x="390" y="125" class="text">
     <tspan x="390" dy=" 0" class="dim">></tspan> Building reliable, self-hosted, developer-friendly products.
   </text>
 
   <text x="390" y="155" class="title">$ cat /etc/about</text>
-  <text x="390" y="175" fill="#484f58">──────────────────────────────────</text>
+  <text x="390" y="175" class="dim">──────────────────────────────────</text>
 
   <text x="390" y="200" class="text">
     <tspan class="key">  Full-Stack</tspan><tspan class="dim">......</tspan><tspan class="val">MERN + TypeScript + Node.js</tspan>
@@ -93,7 +90,7 @@
   </text>
 
   <text x="390" y="315" class="title">$ ls /usr/local/stack</text>
-  <text x="390" y="335" fill="#484f58">──────────────────────────────────</text>
+  <text x="390" y="335" class="dim">──────────────────────────────────</text>
 
   <text x="390" y="360" class="text">
     <tspan class="key">  Languages</tspan><tspan class="dim">.......</tspan><tspan class="val">TypeScript, JavaScript, Python</tspan>
@@ -114,7 +111,6 @@
     <tspan class="key">  Hardware</tspan><tspan class="dim">.........</tspan><tspan class="val">ESP32, Raspberry Pi, BLE</tspan>
   </text>
 
-  <!-- Bottom bar with connect info -->
   <rect x="390" y="478" width="510" height="1" fill="#21262d"/>
 
   <text x="390" y="500" font-size="12px">
