@@ -23,24 +23,22 @@
   <circle cx="48" cy="33" r="5" fill="#9a6700"/>
   <circle cx="64" cy="33" r="5" fill="#1a7f37"/>
 
-  <!-- Terminal graphic -->
-  <text x="35" y="75" fill="#1b7c83" font-size="14px">
-    <tspan x="35" dy=" 0">┌─ System ────────────────┐</tspan>
-    <tspan x="35" dy="22">│                         │</tspan>
-    <tspan x="35" dy="22">│  $ whoami               │</tspan>
-    <tspan x="35" dy="22">│  <tspan fill="#24292f">roman</tspan>                   │</tspan>
-    <tspan x="35" dy="22">│                         │</tspan>
-    <tspan x="35" dy="22">│  $ ./status.sh           │</tspan>
-    <tspan x="35" dy="22">│  <tspan fill="#1a7f37">████████████████████</tspan>  │</tspan>
-    <tspan x="35" dy="22">│  <tspan class="green">BUILD: STABLE</tspan>          │</tspan>
-    <tspan x="35" dy="22">│  <tspan class="dim">UPTIME: 7+ YEARS</tspan>      │</tspan>
-    <tspan x="35" dy="22">│                         │</tspan>
-    <tspan x="35" dy="22">│  $ cat /etc/motd         │</tspan>
-    <tspan x="35" dy="22">│  <tspan class="text">Full-Stack Developer</tspan>  │</tspan>
-    <tspan x="35" dy="22">│  <tspan class="text">QA Automation</tspan>          │</tspan>
-    <tspan x="35" dy="22">│  <tspan class="text">IoT Maker</tspan>              │</tspan>
-    <tspan x="35" dy="22">│                         │</tspan>
-    <tspan x="35" dy="22">└─────────────────────────┘</tspan>
+  <!-- Text avatar -->
+  <rect x="42" y="68" width="296" height="314" fill="#ffffff" stroke="#d0d7de" stroke-width="1" rx="10"/>
+  <text x="64" y="98" class="green" font-size="13px" font-weight="bold">roman@developer</text>
+  <text x="64" y="120" class="dim" font-size="12px">/home/roman/profile</text>
+
+  <circle cx="190" cy="206" r="78" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
+  <circle cx="190" cy="206" r="62" fill="#1b7c83"/>
+  <text x="190" y="225" fill="#ffffff" font-size="54px" font-weight="bold" text-anchor="middle">RP</text>
+  <text x="190" y="304" class="cmt" font-size="12px" text-anchor="middle">FULL-STACK / QA / IOT</text>
+
+  <line x1="64" y1="332" x2="316" y2="332" stroke="#d0d7de" stroke-width="1"/>
+  <text x="64" y="358" font-size="12px">
+    <tspan class="key">BUILD</tspan><tspan class="dim"> .......... </tspan><tspan class="green">STABLE</tspan>
+    <tspan x="64" dy="20"><tspan class="key">UPTIME</tspan><tspan class="dim"> ......... </tspan><tspan class="text">7+ YEARS</tspan></tspan>
+    <tspan x="64" dy="20"><tspan class="key">STACK</tspan><tspan class="dim"> .......... </tspan><tspan class="text">MERN + IoT</tspan></tspan>
+    <tspan x="64" dy="20"><tspan class="key">STATUS</tspan><tspan class="dim"> ......... </tspan><tspan class="text">shipping</tspan></tspan>
   </text>
 
   <text x="35" y="490" class="dim" font-size="11px">v2.0.0 · est. 2026</text>
