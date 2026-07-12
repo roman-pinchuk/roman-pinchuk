@@ -11,6 +11,7 @@
   <a href="https://cv.thisroman.dev">
     <img src="https://img.shields.io/badge/CV-thisroman.dev-0A66C2?style=for-the-badge&logo=google-docs&logoColor=white" />
   </a>
+
   <a href="https://www.linkedin.com/in/roman-pinchuk">
     <img src="https://img.shields.io/badge/LinkedIn-Roman%20Pinchuk-blue?style=for-the-badge&logo=linkedin" />
   </a>
