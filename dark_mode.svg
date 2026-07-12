@@ -24,7 +24,7 @@
   <circle cx="64" cy="33" r="5" fill="#3fb950"/>
 
   <!-- Text avatar -->
-  <rect x="42" y="68" width="296" height="314" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="10"/>
+  <rect x="42" y="68" width="296" height="390" fill="#0d1117" stroke="#30363d" stroke-width="1" rx="10"/>
   <text x="64" y="98" class="green" font-size="13px" font-weight="bold">roman@developer</text>
   <text x="64" y="120" class="dim" font-size="12px">/home/roman/profile</text>
 
@@ -34,12 +34,14 @@
   <text x="190" y="304" class="cmt" font-size="12px" text-anchor="middle">FULL-STACK / QA / IOT</text>
 
   <line x1="64" y1="332" x2="316" y2="332" stroke="#30363d" stroke-width="1"/>
-  <text x="64" y="358" font-size="12px">
-    <tspan class="key">BUILD</tspan><tspan class="dim"> .......... </tspan><tspan class="green">STABLE</tspan>
-    <tspan x="64" dy="20"><tspan class="key">UPTIME</tspan><tspan class="dim"> ......... </tspan><tspan class="text">7+ YEARS</tspan></tspan>
-    <tspan x="64" dy="20"><tspan class="key">STACK</tspan><tspan class="dim"> .......... </tspan><tspan class="text">MERN + IoT</tspan></tspan>
-    <tspan x="64" dy="20"><tspan class="key">STATUS</tspan><tspan class="dim"> ......... </tspan><tspan class="text">shipping</tspan></tspan>
-  </text>
+  <text x="64" y="358" class="key" font-size="12px">BUILD</text>
+  <text x="154" y="358" class="green" font-size="12px">STABLE</text>
+  <text x="64" y="382" class="key" font-size="12px">UPTIME</text>
+  <text x="154" y="382" class="text" font-size="12px">7+ YEARS</text>
+  <text x="64" y="406" class="key" font-size="12px">STACK</text>
+  <text x="154" y="406" class="text" font-size="12px">MERN + IoT</text>
+  <text x="64" y="430" class="key" font-size="12px">STATUS</text>
+  <text x="154" y="430" class="text" font-size="12px">shipping</text>
 
   <text x="35" y="490" class="dim" font-size="11px">v2.0.0 · est. 2026</text>
 
@@ -62,51 +64,38 @@
   <text x="390" y="155" class="title">$ cat /etc/about</text>
   <text x="390" y="175" class="dim">──────────────────────────────────</text>
 
-  <text x="390" y="200" class="text">
-    <tspan class="key">  Full-Stack</tspan><tspan class="dim">......</tspan><tspan class="val">MERN + TypeScript + Node.js</tspan>
-  </text>
-  <text x="390" y="220" class="text">
-    <tspan class="key">  Embedded/IoT</tspan><tspan class="dim">.....</tspan><tspan class="val">ESP32, Wi-Fi/BLE, Home Assistant</tspan>
-  </text>
-  <text x="390" y="240" class="text">
-    <tspan class="key">  Automation</tspan><tspan class="dim">.......</tspan><tspan class="val">QA mindset, self-hosting, CI/CD</tspan>
-  </text>
-  <text x="390" y="260" class="text">
-    <tspan class="key">  Currently</tspan><tspan class="dim">........</tspan><tspan class="val">Advanced server patterns &amp; containers</tspan>
-  </text>
-  <text x="390" y="280" class="text">
-    <tspan class="key">  Seeking</tspan><tspan class="dim">..........</tspan><tspan class="val">IoT, automation, full-stack collabs</tspan>
-  </text>
+  <text x="390" y="200" class="key">Full-Stack</text>
+  <text x="520" y="200" class="val">MERN + TypeScript + Node.js</text>
+  <text x="390" y="220" class="key">Embedded/IoT</text>
+  <text x="520" y="220" class="val">ESP32, Wi-Fi/BLE, Home Assistant</text>
+  <text x="390" y="240" class="key">Automation</text>
+  <text x="520" y="240" class="val">QA mindset, self-hosting, CI/CD</text>
+  <text x="390" y="260" class="key">Currently</text>
+  <text x="520" y="260" class="val">Server patterns &amp; containers</text>
+  <text x="390" y="280" class="key">Seeking</text>
+  <text x="520" y="280" class="val">IoT, automation, full-stack collabs</text>
 
   <text x="390" y="315" class="title">$ ls /usr/local/stack</text>
   <text x="390" y="335" class="dim">──────────────────────────────────</text>
 
-  <text x="390" y="360" class="text">
-    <tspan class="key">  Languages</tspan><tspan class="dim">.......</tspan><tspan class="val">TypeScript, JavaScript, Python</tspan>
-  </text>
-  <text x="390" y="380" class="text">
-    <tspan class="key">  Frontend</tspan><tspan class="dim">.........</tspan><tspan class="val">React, Next.js, Tailwind</tspan>
-  </text>
-  <text x="390" y="400" class="text">
-    <tspan class="key">  Backend</tspan><tspan class="dim">..........</tspan><tspan class="val">Node.js, Express, REST APIs</tspan>
-  </text>
-  <text x="390" y="420" class="text">
-    <tspan class="key">  Database</tspan><tspan class="dim">.........</tspan><tspan class="val">MongoDB, PostgreSQL, Redis</tspan>
-  </text>
-  <text x="390" y="440" class="text">
-    <tspan class="key">  DevOps</tspan><tspan class="dim">...........</tspan><tspan class="val">Docker, Linux, Nginx, Cloudflare</tspan>
-  </text>
-  <text x="390" y="460" class="text">
-    <tspan class="key">  Hardware</tspan><tspan class="dim">.........</tspan><tspan class="val">ESP32, Raspberry Pi, BLE</tspan>
-  </text>
+  <text x="390" y="360" class="key">Languages</text>
+  <text x="520" y="360" class="val">TypeScript, JavaScript, Python</text>
+  <text x="390" y="380" class="key">Frontend</text>
+  <text x="520" y="380" class="val">React, Next.js, Tailwind</text>
+  <text x="390" y="400" class="key">Backend</text>
+  <text x="520" y="400" class="val">Node.js, Express, REST APIs</text>
+  <text x="390" y="420" class="key">Database</text>
+  <text x="520" y="420" class="val">MongoDB, PostgreSQL, Redis</text>
+  <text x="390" y="440" class="key">DevOps</text>
+  <text x="520" y="440" class="val">Docker, Linux, Nginx, Cloudflare</text>
+  <text x="390" y="460" class="key">Hardware</text>
+  <text x="520" y="460" class="val">ESP32, Raspberry Pi, BLE</text>
 
   <rect x="390" y="478" width="510" height="1" fill="#21262d"/>
 
-  <text x="390" y="500" font-size="12px">
+  <text x="390" y="500" font-size="11px">
     <tspan class="cmt">$ nc </tspan><tspan class="val">contact@thisroman.dev</tspan>
     <tspan class="dim">  │  </tspan>
     <tspan class="cmt">$ curl -s </tspan><tspan class="val">linkedin.com/in/roman-pinchuk</tspan>
-    <tspan class="dim">  │  </tspan>
-    <tspan class="cmt">$ open </tspan><tspan class="val">thisroman.dev</tspan>
   </text>
 </svg>
