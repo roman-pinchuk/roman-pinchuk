@@ -11,7 +11,7 @@
 
 ${\color{cyan}\text{> Full-Stack Developer | QA Automation | IoT Maker}}$
 
-${\color{gray}\text{\$\ Passionate about MERN, ESP32, Home Assistant, and automation}}$
+${\color{gray}\text{> Passionate about MERN, ESP32, Home Assistant, and automation}}$
 
 </div>
 
