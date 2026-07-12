@@ -23,35 +23,24 @@
   <circle cx="48" cy="33" r="5" fill="#9a6700"/>
   <circle cx="64" cy="33" r="5" fill="#1a7f37"/>
 
-  <!-- Avatar ASCII art -->
-  <g transform="translate(28, 60) scale(1.35, 1)">
-    <text x="0" y="0" fill="#1b7c83" font-size="12px" xml:space="preserve">
-      <tspan x="0" dy="0">▄▄▄▄▄</tspan>
-      <tspan x="0" dy="10">            ▗▄█▜█▛▙█▟█▄▖</tspan>
-      <tspan x="0" dy="10">           ▟█▟▟▜▟▟▛██▟██▄</tspan>
-      <tspan x="0" dy="10">          ▟█▙▙▛▙█▜█▜▟████▙</tspan>
-      <tspan x="0" dy="10">          ██▞▞▝▖▘▘▖▌▌▙▛▙█▜</tspan>
-      <tspan x="0" dy="10">          █▌▖▗  ▖▘▞▗▚▚▀█▛█</tspan>
-      <tspan x="0" dy="10">          █▌▝ ▖▘ ▘▖▌▙▜▜▝█▜▌</tspan>
-      <tspan x="0" dy="10">          ▞▌▀▜▐▟▐▝▟▛█▛█▐▐█▐</tspan>
-      <tspan x="0" dy="10">          ▞▚▝▘▜▐ ▝▛▙▐▞▙▌▜▟▛</tspan>
-      <tspan x="0" dy="10">          ▝▖▖▗  ▖▘█▖▌▞▖▜▐▛▞</tspan>
-      <tspan x="0" dy="10">          ▗▚▗ ▞▖▗▐▄█▄▚▜▐▛▀</tspan>
-      <tspan x="0" dy="10">           ▐▖▘▌▛▙█▜█▟▙▛▟▟</tspan>
-      <tspan x="0" dy="10">            ▚▚▜▀▗▝▜▜▚▛█▚▛</tspan>
-      <tspan x="0" dy="10">           ▖▞▙▙▝▝█▙▛▛█▛▛▚▖</tspan>
-      <tspan x="0" dy="10">     ▖▖▖▌▚▚▝▖▞██▜▟▟▟██▛█▐▜█▖</tspan>
-      <tspan x="0" dy="10">   ▖▚▗▘▚▐▝▖▌▞▐ ▞█▙█▛█▙█▙██▛█▜▄▖</tspan>
-      <tspan x="0" dy="10">  ▖▞▐▗▚▚▗▚▐▗▝▖▌▖▖▞▞▛▙▜▟▟▙▛█▜▜▟▞▙▚</tspan>
-      <tspan x="0" dy="10">  ▘▟ ▚▘▘▘▌▘▝▝▞▐  ▘▘▘▙█▟█▟█▟█▟▟▟▚█▌▌▖</tspan>
-    </text>
-  </g>
-
-  <!-- Status -->
-  <text x="35" y="310" font-size="12px">
-    <tspan x="35" dy="0" class="green">roman@developer</tspan>
-    <tspan x="35" dy="17" class="dim">BUILD: </tspan><tspan class="green">STABLE</tspan>
-    <tspan x="35" dy="17" class="dim">UPTIME: 7+ YEARS</tspan>
+  <!-- Terminal graphic -->
+  <text x="35" y="75" fill="#1b7c83" font-size="14px">
+    <tspan x="35" dy=" 0">┌─ System ────────────────┐</tspan>
+    <tspan x="35" dy="22">│                         │</tspan>
+    <tspan x="35" dy="22">│  $ whoami               │</tspan>
+    <tspan x="35" dy="22">│  <tspan fill="#24292f">roman</tspan>                   │</tspan>
+    <tspan x="35" dy="22">│                         │</tspan>
+    <tspan x="35" dy="22">│  $ ./status.sh           │</tspan>
+    <tspan x="35" dy="22">│  <tspan fill="#1a7f37">████████████████████</tspan>  │</tspan>
+    <tspan x="35" dy="22">│  <tspan class="green">BUILD: STABLE</tspan>          │</tspan>
+    <tspan x="35" dy="22">│  <tspan class="dim">UPTIME: 7+ YEARS</tspan>      │</tspan>
+    <tspan x="35" dy="22">│                         │</tspan>
+    <tspan x="35" dy="22">│  $ cat /etc/motd         │</tspan>
+    <tspan x="35" dy="22">│  <tspan class="text">Full-Stack Developer</tspan>  │</tspan>
+    <tspan x="35" dy="22">│  <tspan class="text">QA Automation</tspan>          │</tspan>
+    <tspan x="35" dy="22">│  <tspan class="text">IoT Maker</tspan>              │</tspan>
+    <tspan x="35" dy="22">│                         │</tspan>
+    <tspan x="35" dy="22">└─────────────────────────┘</tspan>
   </text>
 
   <text x="35" y="490" class="dim" font-size="11px">v2.0.0 · est. 2026</text>
