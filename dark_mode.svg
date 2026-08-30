@@ -29,8 +29,7 @@
   <text x="64" y="120" class="dim" font-size="12px">/home/roman/profile</text>
 
   <circle cx="190" cy="206" r="78" fill="none" stroke="#30363d" stroke-width="1"/>
-  <circle cx="190" cy="206" r="62" fill="#39d2c0"/>
-  <text x="190" y="225" fill="#0d1117" font-size="54px" font-weight="bold" text-anchor="middle">RP</text>
+  <image href="portrait_dark.png" x="116" y="132" width="148" height="148"/>
   <text x="190" y="304" class="cmt" font-size="12px" text-anchor="middle">FULL-STACK / QA / IOT</text>
 
   <line x1="64" y1="332" x2="316" y2="332" stroke="#30363d" stroke-width="1"/>
