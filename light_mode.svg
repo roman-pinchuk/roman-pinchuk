@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,monospace" width="920" height="520" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" preserveAspectRatio="xMidYMid meet" font-family="Consolas,monospace" width="920" height="520" font-size="14px">
   <style>
     .key    { fill: #9a6700; }
     .val    { fill: #0969da; }
