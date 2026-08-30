@@ -1,10 +1,10 @@
 <div align="center">
   <a href="https://github.com/roman-pinchuk/roman-pinchuk">
     <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="mobile_dark_mode.svg">
-      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="mobile_light_mode.svg">
-      <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-      <img alt="Roman Pinchuk's GitHub profile with a cyan halftone portrait" src="light_mode.svg" width="920">
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/mobile_dark_mode.svg?v=20260831">
+      <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/mobile_light_mode.svg?v=20260831">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/dark_mode.svg?v=20260831">
+      <img alt="Roman Pinchuk's GitHub profile with a cyan halftone portrait" src="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/light_mode.svg?v=20260831" width="920">
     </picture>
   </a>
 
