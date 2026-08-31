@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://github.com/roman-pinchuk/roman-pinchuk">
     <picture>
-      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/mobile_dark_mode.svg?v=20260831-dark2">
+      <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/mobile_dark_mode.svg?v=20260831-dark5">
       <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/mobile_light_mode.svg?v=20260831-light5">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/dark_mode.svg?v=20260831-dark2">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/dark_mode.svg?v=20260831-dark5">
       <img alt="Roman Pinchuk's GitHub profile with a grayscale halftone portrait" src="https://raw.githubusercontent.com/roman-pinchuk/roman-pinchuk/main/light_mode.svg?v=20260831-light5" width="920">
     </picture>
   </a>
